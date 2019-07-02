@@ -94,7 +94,7 @@ Now we can download winscp program and type our pi's address, username : pi and 
 
 Now in WinSCP program we can edit our html files however we want.
 
-## Running Enabling our website to launch python scripts.
+## Enable our website to run python scripts.
 
 Firstly:
 ```bash
