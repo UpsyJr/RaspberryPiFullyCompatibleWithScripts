@@ -1,4 +1,4 @@
-# RaspberryPiFullyCompatibleWithScripts
+# RaspberryPiFullyCompatibleWithScripts via Apache2 web server
 
 To install raspberry with fully functional web server which supports GPIO we have to take these steps:
 
