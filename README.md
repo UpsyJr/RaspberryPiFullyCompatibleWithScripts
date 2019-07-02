@@ -2,7 +2,7 @@
 
 To install raspberry with fully functional web server which supports GPIO we have to take these steps:
 
-##Installation:
+## Installation:
 
 Firstly we install apache2
 ```bash
@@ -39,7 +39,7 @@ In this file we have to find Directory with following things:
 ```
 And in here we have to change AllowOverride from None to All
 
-##Setting FTP / SFTP server to be able to edit files remotly
+## Setting FTP / SFTP server to be able to edit files remotly
 
 ```bash
 sudo chown -R pi /var/www
@@ -94,7 +94,7 @@ Now we can download winscp program and type our pi's address, username : pi and 
 
 Now in WinSCP program we can edit our html files however we want.
 
-##Running Enabling our website to launch python scripts.
+## Running Enabling our website to launch python scripts.
 
 Firstly:
 ```bash
@@ -106,7 +106,7 @@ Then there is a strange thing, but we have to mod out html folder ( or any other
 ```bash
 sudo chmod 755 <directory>
 ```
-#One of the Important things!!
+# One of the Important things!!
 
 We are logged in as a pi user, web-server uses a www-data user which is unknown for the system
 In order for us to launch a php/py scripts wy have to do these steps:
