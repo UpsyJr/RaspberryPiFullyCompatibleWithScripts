@@ -39,7 +39,7 @@ In this file we have to find Directory with following things:
 ```
 And in here we have to change AllowOverride from None to All
 
-## Setting FTP / SFTP server to be able to edit files remotly
+## Setting FTP / SFTP server to be able to edit files remotely
 
 ```bash
 sudo chown -R pi /var/www
@@ -79,7 +79,7 @@ Then we have to edit a password file:
 ```bash
 sudo nano passwd
 ```
-and we have to look for pi:x:1000:1000 and etc. Uncoment this line!
+and we have to look for pi :x: 1000:1000 and etc. Comment this line
 
 Then
 ```bash
@@ -105,7 +105,7 @@ Firstly:
 ```bash
 sudo systemctl status apache2.service
 ```
-To check if there is not errors going on and everything is working perfectly
+To check if there are not errors going on and everything is working perfectly
 
 Then there is a strange thing, that we have to mod out html folder ( or any other web browser directory ) to exectue py scripts by writing:
 ```bash
@@ -115,7 +115,7 @@ sudo chmod 755 <directory>
 
 We are logged in as a pi user, web-server uses a www-data user which is unknown for the system.
 
-In order for us to launch a php/py scripts wy have to do these steps:
+In order for us to launch a php/py scripts we have to do these steps:
 ```bash
 sudo visudo
 ```
@@ -125,7 +125,7 @@ Go to the bottom of the file and write:
 ```bash
 %www-data ALL=(ALL) NOPASSWD:ALL
 ```
-This line will let us use sudo commant without logging in as root user for the www-data user from the website
+This line will let us use sudo command without logging in as root user for the www-data user from the website
 
 And that's it!
 
