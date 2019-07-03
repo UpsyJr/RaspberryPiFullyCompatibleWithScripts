@@ -79,7 +79,7 @@ Then we have to edit a password file:
 ```bash
 sudo nano passwd
 ```
-and we have to look for pi :x: 1000:1000 and etc. Comment this line
+and we have to look for pi : x : 1000:1000 and etc. Comment this line
 
 Then
 ```bash
